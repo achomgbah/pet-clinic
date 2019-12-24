@@ -40,7 +40,7 @@
 
     <scm>
         <developerConnection>
-            scm:git:git@github.com:https://github.com/achomgbah/pet-clinic.git
+            scm:git:git@github.com:achomgbah/pet-clinic.git
         </developerConnection>
       <tag>pet-clinic-0.0.1</tag>
   </scm>
