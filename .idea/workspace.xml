@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0851250-7f27-4cf4-99ac-57bbb51811e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/release.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576946692945</updated>
       <workItem from="1576946699256" duration="1024000" />
-      <workItem from="1577227939264" duration="3645000" />
+      <workItem from="1577227939264" duration="3948000" />
     </task>
     <task id="LOCAL−00001" summary="adding POJOs. Closes #2">
       <created>1576947605967</created>
@@ -146,6 +149,10 @@
     </state>
     <state x="536" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1577230446415" />
     <state x="292" y="141" key="CommitChangelistDialog2/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947605759" />
+    <state x="868" y="100" width="712" height="850" key="DiffContextDialog" timestamp="1577232290988">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="868" y="100" width="712" height="850" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577232290988" />
     <state width="870" height="294" key="GridCell.Tab.0.bottom" timestamp="1577231180003">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
