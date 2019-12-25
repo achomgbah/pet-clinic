@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.rob</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>pet-clinic</name>
     <description>Springframework Pet Clinic</description>
 
@@ -42,7 +42,7 @@
         <developerConnection>
             scm:git:git@github.com:achomgbah/pet-clinic.git
         </developerConnection>
-      <tag>rel1</tag>
+      <tag>pet-clinic-release_2019-52</tag>
   </scm>
 
 </project>
