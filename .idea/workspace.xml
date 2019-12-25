@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0851250-7f27-4cf4-99ac-57bbb51811e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/rob/petclinic/services/OwnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/rob/petclinic/services/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/rob/petclinic/services/VetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -94,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576946692945</updated>
       <workItem from="1576946699256" duration="1024000" />
-      <workItem from="1577227939264" duration="4519000" />
+      <workItem from="1577227939264" duration="5327000" />
     </task>
     <task id="LOCAL−00001" summary="adding POJOs. Closes #2">
       <created>1576947605967</created>
@@ -108,7 +112,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1577230446732</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="testing release plugin. see #3">
+      <created>1577233904746</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1577233904746</updated>
+    </task>
+    <task id="LOCAL−00004" summary="testing release plugin. see #3">
+      <created>1577233972874</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1577233972874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="refractored to multi module project. closes #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="refractored to multi module project. closes #1" />
+    <MESSAGE value="testing release plugin. see #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing release plugin. see #3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1576947420727">
@@ -149,25 +166,25 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="868" y="100" width="712" height="850" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577232290988" />
-    <state width="870" height="294" key="GridCell.Tab.0.bottom" timestamp="1577233861559">
+    <state width="940" height="294" key="GridCell.Tab.0.bottom" timestamp="1577234422467">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="870" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577233861559" />
+    <state width="940" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577234422467" />
     <state width="1630" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947782468" />
-    <state width="870" height="294" key="GridCell.Tab.0.center" timestamp="1577233861558">
+    <state width="940" height="294" key="GridCell.Tab.0.center" timestamp="1577234422466">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="870" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577233861558" />
+    <state width="940" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577234422466" />
     <state width="1630" height="280" key="GridCell.Tab.0.center/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947782468" />
-    <state width="870" height="294" key="GridCell.Tab.0.left" timestamp="1577233861557">
+    <state width="940" height="294" key="GridCell.Tab.0.left" timestamp="1577234422466">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="870" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577233861557" />
+    <state width="940" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577234422466" />
     <state width="1630" height="280" key="GridCell.Tab.0.left/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947782467" />
-    <state width="870" height="294" key="GridCell.Tab.0.right" timestamp="1577233861559">
+    <state width="940" height="294" key="GridCell.Tab.0.right" timestamp="1577234422467">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="870" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577233861559" />
+    <state width="940" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577234422467" />
     <state width="1630" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947782468" />
     <state width="870" height="294" key="GridCell.Tab.1.bottom" timestamp="1577233806232">
       <screen x="0" y="0" width="1680" height="1050" />
