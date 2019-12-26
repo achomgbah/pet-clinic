@@ -2,11 +2,6 @@ package com.rob.petclinic.services;
 
 import com.rob.petclinic.model.Owner;
 
-import java.util.Set;
-
-public interface OwnerService {
-    Owner findById(long id);
+public interface OwnerService extends CrudService<Owner, Long> {
     Owner findByLastName(String lastName);
-    Owner save(Owner owner);
-    Set<Owner> findAll();
 }
