@@ -4,8 +4,6 @@ import com.rob.petclinic.model.Owner;
 import com.rob.petclinic.model.Vet;
 import com.rob.petclinic.services.OwnerService;
 import com.rob.petclinic.services.VetService;
-import com.rob.petclinic.services.map.OwnerServiceMap;
-import com.rob.petclinic.services.map.VetServiceMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -18,9 +16,9 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private Logger logger = LoggerFactory.getLogger(DataLoader.class);
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
