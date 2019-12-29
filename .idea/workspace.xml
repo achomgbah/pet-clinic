@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0851250-7f27-4cf4-99ac-57bbb51811e1" name="Default Changelist" comment="">
+    <list default="true" id="a0851250-7f27-4cf4-99ac-57bbb51811e1" name="Default Changelist" comment=". closes #17">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/inputField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/selectField.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +104,7 @@
       <workItem from="1577358166885" duration="4220000" />
       <workItem from="1577467878946" duration="552000" />
       <workItem from="1577473949941" duration="4318000" />
+      <workItem from="1577614241099" duration="750000" />
     </task>
     <task id="LOCAL−00001" summary="adding POJOs. Closes #2">
       <created>1576947605967</created>
@@ -204,7 +208,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1577481123042</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Static files from pet clinic. closes #16">
+      <created>1577614414166</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1577614414166</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +238,8 @@
     <MESSAGE value="Now showing. closes #15" />
     <MESSAGE value="Now showing vets list. closes #22" />
     <MESSAGE value="Id impl. closes #23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Id impl. closes #23" />
+    <MESSAGE value="Static files from pet clinic. closes #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static files from pet clinic. closes #16" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -257,12 +268,12 @@
     </state>
     <state x="996" y="415" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050/-140.-1080.1920.1080@0.0.1680.1050" timestamp="1577474267879" />
     <state x="996" y="415" width="543" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1680.1050@0.0.1680.1050" timestamp="1577228664226" />
-    <state x="292" y="141" key="CommitChangelistDialog2" timestamp="1577614388891">
+    <state x="292" y="141" key="CommitChangelistDialog2" timestamp="1577615158014">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="536" y="112" key="CommitChangelistDialog2/0.0.1680.1050/-140.-1080.1920.1080@0.0.1680.1050" timestamp="1577475033472" />
     <state x="536" y="112" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1577481122855" />
-    <state x="292" y="141" key="CommitChangelistDialog2/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1577614388891" />
+    <state x="292" y="141" key="CommitChangelistDialog2/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1577615158014" />
     <state x="868" y="100" width="712" height="850" key="DiffContextDialog" timestamp="1577232290988">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -319,12 +330,12 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="886" y="172" width="655" height="746" key="RefactorJ.IntroduceParameterObject/0.0.1680.1050@0.0.1680.1050" timestamp="1577480556946" />
-    <state x="444" y="261" key="Vcs.Push.Dialog.v2" timestamp="1577481124653">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="444" y="278" key="Vcs.Push.Dialog.v2" timestamp="1577614417248">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="444" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-140.-1080.1920.1080@0.0.1680.1050" timestamp="1577475039012" />
     <state x="444" y="261" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1577481124653" />
-    <state x="444" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1576947610401" />
+    <state x="444" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-140.-1057.1920.1057@0.23.1680.1027" timestamp="1577614417248" />
     <state x="1015" y="312" key="chooseDestDirectoryDialog" timestamp="1577228652988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
