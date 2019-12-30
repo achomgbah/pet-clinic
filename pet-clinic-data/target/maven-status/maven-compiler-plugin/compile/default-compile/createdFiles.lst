@@ -1,0 +1,15 @@
+com/rob/petclinic/model/Vet.class
+com/rob/petclinic/bootstrap/DataLoader.class
+com/rob/petclinic/services/map/PetServiceMap.class
+com/rob/petclinic/model/BaseEntity.class
+com/rob/petclinic/model/Pet.class
+com/rob/petclinic/services/CrudService.class
+com/rob/petclinic/model/Owner.class
+com/rob/petclinic/services/map/AbstractMapService.class
+com/rob/petclinic/services/VetService.class
+com/rob/petclinic/model/PetType.class
+com/rob/petclinic/services/map/OwnerServiceMap.class
+com/rob/petclinic/services/OwnerService.class
+com/rob/petclinic/services/map/VetServiceMap.class
+com/rob/petclinic/model/Person.class
+com/rob/petclinic/services/PetService.class
