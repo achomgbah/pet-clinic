@@ -1,0 +1,4 @@
+#Internalization
+spring:
+  messages:
+    basename: messages/messages
