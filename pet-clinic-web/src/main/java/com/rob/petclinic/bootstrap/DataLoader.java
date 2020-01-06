@@ -1,10 +1,7 @@
 package com.rob.petclinic.bootstrap;
 
 import com.rob.petclinic.model.*;
-import com.rob.petclinic.services.OwnerService;
-import com.rob.petclinic.services.PetTypeService;
-import com.rob.petclinic.services.SpecialtyService;
-import com.rob.petclinic.services.VetService;
+import com.rob.petclinic.services.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -19,14 +16,16 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialtyService specialtyService;
+    private final VisitService visitService;
 
     private final Logger logger = LoggerFactory.getLogger(DataLoader.class);
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtyService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtyService specialtyService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialtyService = specialtyService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -103,6 +102,12 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
         logger.info("loaded Owners...");
+
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasPet);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy kitty");
+        visitService.save(catVisit);
 
         Vet vet1 = new Vet();
         vet1.setFirstName("Sam");
