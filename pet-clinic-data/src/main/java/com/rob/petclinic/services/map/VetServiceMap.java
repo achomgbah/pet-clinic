@@ -1,6 +1,6 @@
 package com.rob.petclinic.services.map;
 
-import com.rob.petclinic.model.Specialty;
+import com.rob.petclinic.model.Speciality;
 import com.rob.petclinic.model.Vet;
 import com.rob.petclinic.services.SpecialtyService;
 import com.rob.petclinic.services.VetService;
@@ -32,8 +32,8 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
         if (object != null && object.getSpecialties().size() > 0) {
             object.getSpecialties().forEach(specialty -> {
                 if (specialty.getId() == null){
-                    Specialty savedSpecialty = specialtyService.save(specialty);
-                    specialty.setId(savedSpecialty.getId());
+                    Speciality savedSpeciality = specialtyService.save(specialty);
+                    specialty.setId(savedSpeciality.getId());
                 }
             });
         }

@@ -1,6 +1,6 @@
 package com.rob.petclinic.services;
 
-import com.rob.petclinic.model.Specialty;
+import com.rob.petclinic.model.Speciality;
 
-public interface SpecialtyService extends CrudService<Specialty, Long> {
+public interface SpecialtyService extends CrudService<Speciality, Long> {
 }
