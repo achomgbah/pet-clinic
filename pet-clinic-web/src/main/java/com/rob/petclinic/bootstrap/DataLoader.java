@@ -70,7 +70,6 @@ public class DataLoader implements CommandLineRunner {
         owner1.setTelephone("123467234");
         logger.info("added owner:{}", owner1.getFirstName());
 
-
         Pet mikesPet = new Pet();
         mikesPet.setPetType(savedDogPetType);
         mikesPet.setOwner(owner1);
@@ -112,14 +111,14 @@ public class DataLoader implements CommandLineRunner {
         Vet vet1 = new Vet();
         vet1.setFirstName("Sam");
         vet1.setLastName("Axe");
-        vet1.getSpecialties().add(savedRadiology);
+        vet1.getSpecialities().add(savedRadiology);
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
         vet2.setFirstName("Kayla");
         vet2.setLastName("Hermansson");
-        vet2.getSpecialties().add(savedSurgery);
-        vet2.getSpecialties().add(savedDentistry);
+        vet2.getSpecialities().add(savedSurgery);
+        vet2.getSpecialities().add(savedDentistry);
 
         vetService.save(vet2);
         logger.info("loaded Vets...");
