@@ -3,6 +3,7 @@ package com.rob.petclinic.services.springdatajpa;
 import com.rob.petclinic.model.Vet;
 import com.rob.petclinic.repositories.VetRepository;
 import com.rob.petclinic.services.VetService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +15,7 @@ import java.util.Set;
 public class VetSDJpaService implements VetService {
     private final VetRepository vetRepository;
 
+    @Autowired
     public VetSDJpaService(VetRepository vetRepository) {
         this.vetRepository = vetRepository;
     }

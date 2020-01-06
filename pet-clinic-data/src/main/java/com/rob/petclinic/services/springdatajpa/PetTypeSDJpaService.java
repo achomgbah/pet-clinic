@@ -3,6 +3,7 @@ package com.rob.petclinic.services.springdatajpa;
 import com.rob.petclinic.model.PetType;
 import com.rob.petclinic.repositories.PetTypeRepository;
 import com.rob.petclinic.services.PetTypeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +16,7 @@ public class PetTypeSDJpaService implements PetTypeService {
 
     private final PetTypeRepository petTypeRepository;
 
+    @Autowired
     public PetTypeSDJpaService(PetTypeRepository petTypeRepository) {
         this.petTypeRepository = petTypeRepository;
     }
