@@ -1,4 +1,7 @@
-#Internalization
 spring:
+  #Internalization
   messages:
     basename: messages/messages
+  #Profiles
+  profiles:
+    active: springdatajpa
